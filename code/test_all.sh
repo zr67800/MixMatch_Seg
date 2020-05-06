@@ -1,0 +1,1 @@
+for f in ../evaluation/*.pth ; do python test.py --model $f > $f.txt;done
